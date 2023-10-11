@@ -1,8 +1,8 @@
-let taskString = "Hello world";
-let taskNumber = 11;
-let taskBool = true;
-let taskNull = null;
-let taskUnd = undefined;
+const taskString = "Hello world";
+const taskNumber = 11;
+const taskBool = true;
+const taskNull = null;
+const taskUnd = undefined;
 
 console.log(taskString);
 console.log(taskNumber);

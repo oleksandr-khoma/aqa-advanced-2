@@ -1,12 +1,15 @@
 // 5.1
-let radius = 10;
-console.log(`Area of circle is ${Math.PI * radius ** 2}`);
+const radius = 10;
+const circleArea = (Math.PI * radius ** 2).toFixed(2);
+console.log(`Area of circle is ${circleArea}`);
 
 // 5.2
-let length = 12;
-let width = 15;
-console.log(`Area of the rectangle is ${length * width}`);
+const length = 12;
+const width = 15;
+const rectangleArea = (length * width).toFixed(2);
+console.log(`Area of the rectangle is ${rectangleArea}`);
 
 // 5.3
-let height = 18;
-console.log(`Cylinder volume is ${Math.PI * radius ** 2 * height}`);
+const height = 18;
+const cylinderVolume = (Math.PI * radius ** 2 * height).toFixed(2);
+console.log(`Cylinder volume is ${cylinderVolume}`);

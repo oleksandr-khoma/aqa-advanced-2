@@ -1,4 +1,4 @@
-let userAge = 16;
-let isAdult = userAge > 18 ? true : false;
+const userAge = 16;
+const isAdult = userAge >= 18;
 
 console.log(`User's age is ${userAge}. Adult? ${isAdult}`);
